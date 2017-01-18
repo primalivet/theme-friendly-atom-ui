@@ -1,0 +1,52 @@
+// Scrollbars
+// -------------------
+
+.scrollbars-visible-always {
+  atom-pane-container {
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+
+      &-track {
+        background-color: @base-scrollbar-track;
+      }
+
+      &-corner {
+        background: @base-scrollbar-track;
+      }
+
+      &-thumb {
+        background-color: @base-scrollbar-thumb;
+        border-radius: 5px;
+
+        &:window-inactive {
+          background-color: @base-scrollbar-thumb-window-inactive;
+        }
+      }
+    }
+  }
+  .modal,
+  .tool-panel {
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+
+      &-track {
+        background-color: @tree-view-scrollbar-track;
+      }
+
+      &-corner {
+        background: @tree-view-scrollbar-track;
+      }
+
+      &-thumb {
+        background-color: @tree-view-scrollbar-thumb;
+        border-radius: 5px;
+
+        &:window-inactive {
+          background-color: @tree-view-scrollbar-thumb-window-inactive;
+        }
+      }
+    }
+  }
+}

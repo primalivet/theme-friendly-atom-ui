@@ -1,0 +1,25 @@
+// Panels
+// -------------------
+
+.panel-heading {
+  border-bottom: 1px solid @panel-heading-border-color;
+  background-color: @panel-heading-background-color;
+}
+
+.inset-panel {
+  background-color: @inset-panel-background-color;
+  .panel-heading {
+    background-color: @inset-panel-background-color;
+  }
+}
+
+// Modal -------------------
+
+atom-panel.modal {
+  border: 1px solid @overlay-border-color;
+  border-top: none;
+}
+
+atom-panel.modal .list-group .character-match {
+  color: @darkYellow;
+}

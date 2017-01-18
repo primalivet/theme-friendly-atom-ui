@@ -1,0 +1,27 @@
+// Tooltips
+// -------------------
+
+.tooltip {
+
+  &.top .tooltip-arrow { border-top-color: @darkYellow; }
+  &.left .tooltip-arrow { border-left-color: @darkYellow; }
+  &.right .tooltip-arrow { border-right-color: @darkYellow; }
+  &.bottom .tooltip-arrow { border-bottom-color: @darkYellow; }
+
+  .tooltip-inner {
+    line-height: 1;
+    padding: .75em;
+    white-space: nowrap;
+    max-width: none;
+    background-color: @darkYellow;
+    color: @almostBlack;
+  }
+
+  .keystroke {
+    padding: .15em .4em;
+    margin: 0 -.3em 0 .25em;
+    border-radius: max(2px, @component-border-radius / 2);
+    color: @text-color-selected;
+    background: @background-color-selected;
+  }
+}
