@@ -2,7 +2,7 @@
 
 Dark blueish UI theme with yellow highlights. It looks at it's best together with the [Friendly syntax](http://github.com/primalivet/friendly-syntax).
 
-![](screenshots/overview.png)
+![](https://raw.githubusercontent.com/primalivet/friendly-ui/master/screenshots/overview.png)
 
 Friendly UI together with the matching [Friendly syntax](https://github.com/primalivet/friendly-syntax).
 
@@ -10,7 +10,7 @@ Friendly UI together with the matching [Friendly syntax](https://github.com/prim
 
 Screenshots below of colored matches in command palett and fuzzy finder. Active tabs with yellow border and unsaved tabs with pink border.
 
-![](screenshots/details.png)
+![](https://raw.githubusercontent.com/primalivet/friendly-ui/master/screenshots/details.png)
 
 ## Installation
 
