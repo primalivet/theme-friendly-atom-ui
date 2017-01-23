@@ -1,6 +1,6 @@
 # Friendly UI theme for Atom
 
-Dark blueish UI theme with yellow highlights. It looks at it's best together with the [Friendly syntax](http://github.com/primalivet/friendly-syntax).
+Dark blueish UI theme with yellow highlights. It looks at it's best together with the [Friendly syntax](https://atom.io/themes/friendly-syntax).
 
 ![](https://raw.githubusercontent.com/primalivet/friendly-ui/master/screenshots/overview.png)
 
